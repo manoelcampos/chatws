@@ -7,5 +7,19 @@
 </head>
 <body>
     <h1>Chat WS</h1>
+
+    <form id="form1">
+        <label id="label">Digita sua mensagem</label>
+        <input type="text" id="msg">
+        <button type="submit">Enviar</button>
+    </form>
+
+    <ul id="mensagens">
+    </ul>
+
+    <div id="status"></div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/index.js"></script>
 </body>
 </html>
